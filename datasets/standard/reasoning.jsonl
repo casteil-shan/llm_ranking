@@ -1,0 +1,10 @@
+{"id": "reasoning_s001", "suite": "reasoning", "prompt": "三个连续奇数的和是 63，其中最大的是多少？只回答数字。", "checks": [{"type": "numeric", "value": 23}]}
+{"id": "reasoning_s002", "suite": "reasoning", "prompt": "某商品先涨价 20%，再降价 20%，最终价格是原价的百分之几？只回答数字（如 96 表示 96%）。", "checks": [{"type": "numeric", "value": 96, "tolerance": 1}]}
+{"id": "reasoning_s003", "suite": "reasoning", "prompt": "一个三位数，百位、十位、个位之和为 15，百位比个位大 2，十位等于百位与个位之和的一半。这个三位数是多少？", "checks": [{"type": "numeric", "value": 687}]}
+{"id": "reasoning_s004", "suite": "reasoning", "prompt": "农场有鸡兔共 35 只，脚共 94 只。鸡和兔各多少只？请按格式回答：鸡X只，兔Y只。", "checks": [{"type": "contains", "value": "鸡23"}, {"type": "contains", "value": "兔12"}]}
+{"id": "reasoning_s005", "suite": "reasoning", "prompt": "父亲今年 45 岁，儿子 15 岁。多少年后父亲的年龄是儿子的 2 倍？只回答年数。", "checks": [{"type": "numeric", "value": 15}]}
+{"id": "reasoning_s006", "suite": "reasoning", "prompt": "5 个人坐一排照相，其中甲、乙必须相邻，丙不能坐在两端。有多少种坐法？只回答数字。", "checks": [{"type": "numeric", "value": 36}]}
+{"id": "reasoning_s007", "suite": "reasoning", "prompt": "水池有甲、乙两排水管。单开甲管排空需 12 小时，单开乙管需 18 小时。两管同时开，排空水池需多少小时？只回答数字（可保留一位小数）。", "checks": [{"type": "numeric", "value": 7.2, "tolerance": 0.2}]}
+{"id": "reasoning_s008", "suite": "reasoning", "prompt": "若今天是星期三，那么 100 天后是星期几？只回答「星期X」。", "checks": [{"type": "contains", "value": "星期五"}]}
+{"id": "reasoning_s009", "suite": "reasoning", "prompt": "三个盒子分别标有「苹果」「橙子」「混合」，但标签全部贴错。你只能从一个盒子取出一个水果查看。问：最少取几次能确定所有盒子的真实内容？只回答次数。", "checks": [{"type": "numeric", "value": 1}]}
+{"id": "reasoning_s010", "suite": "reasoning", "prompt": "某项目甲单独完成需 10 天，乙单独需 15 天。两人合作 4 天后，乙离开，甲还需几天完成？只回答天数（可保留一位小数）。", "checks": [{"type": "numeric", "value": 2.7, "tolerance": 0.3}]}

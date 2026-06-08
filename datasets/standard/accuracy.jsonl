@@ -1,0 +1,8 @@
+{"id": "accuracy_s001", "suite": "accuracy", "prompt": "光速在真空中的近似值是多少 m/s？只回答科学计数法或整数（如 3e8 或 300000000）。", "checks": [{"type": "regex", "pattern": "3[\\s]*[×x*]?[\\s]*10\\^?8|300000000|3e8"}]}
+{"id": "accuracy_s002", "suite": "accuracy", "prompt": "请列举门捷列夫元素周期表中原子序数为 6 的元素名称（中英文均可）。", "checks": [{"type": "any_of", "values": ["碳", "Carbon", "carbon"]}]}
+{"id": "accuracy_s003", "suite": "accuracy", "prompt": "《红楼梦》的作者一般认为是哪位？同时回答该作品共多少回（通行本）。格式：作者XXX，共XX回。", "checks": [{"type": "contains", "value": "曹雪芹"}, {"type": "contains", "value": "120"}]}
+{"id": "accuracy_s004", "suite": "accuracy", "prompt": "TCP 三次握手依次发送什么标志位？按顺序用英文缩写回答，如 SYN,XXX,XXX。", "checks": [{"type": "contains", "value": "SYN"}, {"type": "contains", "value": "ACK"}]}
+{"id": "accuracy_s005", "suite": "accuracy", "prompt": "以下关于 Python 的说法哪个正确？A. list 是不可变类型  B. dict 的 key 必须可哈希  C. tuple 可以修改元素  D. set 允许重复元素。只回答字母。", "checks": [{"type": "choice", "value": "B"}]}
+{"id": "accuracy_s006", "suite": "accuracy", "prompt": "用恰好 30 个字（中文，标点不计）解释「梯度下降」的核心思想。字数尽量接近 30。", "checks": [{"type": "not_contains", "value": "不知道"}, {"type": "contains", "value": "梯度"}]}
+{"id": "accuracy_s007", "suite": "accuracy", "prompt": "联合国安理会常任理事国共有几个？分别列出国家名（中文简称即可）。", "checks": [{"type": "numeric", "value": 5}, {"type": "contains", "value": "中国"}, {"type": "contains", "value": "美国"}]}
+{"id": "accuracy_s008", "suite": "accuracy", "prompt": "将以下 JSON 补全为合法格式并回答 status 字段的值：{\"name\": \"test\", \"status\": ???, \"count\": 3}。假设 status 应为表示成功的字符串。只回答 status 的值。", "checks": [{"type": "any_of", "values": ["ok", "OK", "success", "Success", "成功"]}]}

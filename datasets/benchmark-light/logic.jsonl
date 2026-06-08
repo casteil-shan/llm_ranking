@@ -1,0 +1,12 @@
+{"suite": "logic", "id": "logic_zh001", "lang": "zh", "prompt": "前提1：所有哺乳动物都有脊椎。前提2：鲸鱼是哺乳动物。前提3：有些有脊椎的动物会飞。结论：鲸鱼会飞。该结论是否必然成立？回答「必然」或「不必然」。", "checks": [{"type": "contains", "value": "不必然"}]}
+{"suite": "logic", "id": "logic_zh002", "lang": "zh", "prompt": "甲说：乙和丙都说谎。乙说：甲说谎。丙说：乙说谎。三人中只有一人说真话。谁在说真话？只回答甲、乙或丙。", "checks": [{"type": "contains", "value": "乙"}]}
+{"suite": "logic", "id": "logic_zh003", "lang": "zh", "prompt": "五个房间排成一行，颜色分别为红、蓝、绿、黄、白（顺序未知）。已知：红房在白房左边且不相邻；蓝房在绿房右边；黄房在中间。绿房在第几个位置（从左数 1-5）？", "checks": [{"type": "numeric", "value": 2}]}
+{"suite": "logic", "id": "logic_zh004", "lang": "zh", "prompt": "若「只有年满 18 岁才能投票」为真，且「小李没有投票」为真，能否推出「小李未满 18 岁」？回答「能」或「不能」。", "checks": [{"type": "contains", "value": "不能"}]}
+{"suite": "logic", "id": "logic_zh005", "lang": "zh", "prompt": "骑士永远说真话，无赖永远说谎。你问 A「B 是骑士吗？」A 回答「是的」。然后你问 B「A 和你是同一类人吗？」B 回答「不是」。A 是骑士还是无赖？", "checks": [{"type": "contains", "value": "无赖"}]}
+{"suite": "logic", "id": "logic_zh006", "lang": "zh", "prompt": "三个开关控制三盏灯（灯在隔壁房间，看不见）。你只能进隔壁房间一次。如何确定哪个开关控制哪盏灯？简述关键思路，并回答至少需要几次开关操作来区分。", "checks": [{"type": "contains", "value": "热"}, {"type": "any_of", "values": ["一次", "1次", "两次", "2次"]}]}
+{"suite": "logic", "id": "logic_zh007", "lang": "zh", "prompt": "命题：「如果下雨，则地湿」的逆否命题是什么？A. 如果地湿，则下雨  B. 如果地不湿，则没下雨  C. 如果没下雨，则地不湿  D. 如果下雨，则地不湿。只回答字母。", "checks": [{"type": "choice", "value": "B"}]}
+{"suite": "logic", "id": "logic_zh008", "lang": "zh", "prompt": "四人比赛，名次无并列。已知：甲不是第一；乙不是最后；丙在丁前面；丁不是第二。第一名是谁？只回答姓名。", "checks": [{"type": "contains", "value": "丙"}]}
+{"suite": "logic", "id": "logic_zh009", "lang": "zh", "prompt": "一列火车以 60 km/h 向东行驶。车厢内小球以 5 km/h 相对车厢向西滚动。小球相对地面的速度大小（km/h）是多少？只回答数字。", "checks": [{"type": "numeric", "value": 55}]}
+{"suite": "logic", "id": "logic_zh010", "lang": "zh", "prompt": "三个盒子分别标有「金」「银」「铜」，其中一个装有奖品。金盒子上写着「奖品在这里」；银盒子上写着「奖品不在这里」；铜盒子上写着「奖品不在金盒」。恰好一个盒子说真话。奖品在哪个盒子？只回答金、银或铜。", "checks": [{"type": "contains", "value": "金"}]}
+{"suite": "logic", "id": "logic_zh011", "lang": "zh", "prompt": "若「所有程序员都会写代码」为真，且「小王不会写代码」为真，能否推出「小王不是程序员」？回答「能」或「不能」。", "checks": [{"type": "contains", "value": "能"}]}
+{"suite": "logic", "id": "logic_zh012", "lang": "zh", "prompt": "六人围坐圆桌，已知 A 与 B 不相邻，C 在 D 对面，E 紧挨在 A 右边。若 F 与 C 相邻，F 在 A 的左边还是右边？只回答「左」或「右」。", "checks": [{"type": "contains", "value": "右"}]}

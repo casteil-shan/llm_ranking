@@ -1,0 +1,3 @@
+{"id": "logic_001", "suite": "logic", "prompt": "前提：如果下雨，地面会湿。地面是湿的。结论：一定下雨了。这个推理是否正确？回答「正确」或「不正确」。", "checks": [{"type": "contains", "value": "不正确"}]}
+{"id": "logic_002", "suite": "logic", "prompt": "三个人 A、B、C 中有一人说谎。A 说 B 说谎，B 说 C 说谎，C 说 A 和 B 都说谎。谁在说真话？只回答 A、B 或 C。", "checks": [{"type": "contains", "value": "B"}]}
+{"id": "logic_003", "suite": "logic", "prompt": "所有程序员都会写代码。小李会写代码。能否推出小李是程序员？回答「能」或「不能」。", "checks": [{"type": "contains", "value": "不能"}]}

@@ -1,0 +1,4 @@
+{"id": "accuracy_001", "suite": "accuracy", "prompt": "中国的首都是哪里？只回答城市名。", "checks": [{"type": "contains", "value": "北京"}]}
+{"id": "accuracy_002", "suite": "accuracy", "prompt": "水的化学式是什么？", "checks": [{"type": "contains", "value": "H2O"}]}
+{"id": "accuracy_003", "suite": "accuracy", "prompt": "请用不超过 20 个字解释什么是机器学习。", "checks": [{"type": "not_contains", "value": "不知道"}]}
+{"id": "accuracy_004", "suite": "accuracy", "prompt": "以下哪个是质数？A. 9  B. 15  C. 17  D. 21。只回答选项字母。", "checks": [{"type": "choice", "value": "C"}]}

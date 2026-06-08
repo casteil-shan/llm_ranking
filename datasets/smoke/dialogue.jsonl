@@ -1,0 +1,3 @@
+{"id": "dialogue_001", "suite": "dialogue", "system": "你是一个友好的助手，记住用户提供的信息。", "turns": [{"user": "我叫张三，在北京工作。"}, {"user": "我叫什么名字？", "check": {"type": "contains", "value": "张三"}}, {"user": "我在哪个城市工作？", "check": {"type": "contains", "value": "北京"}}]}
+{"id": "dialogue_002", "suite": "dialogue", "system": "你是一个助手，用户纠正你时要接受纠正。", "turns": [{"user": "我最喜欢的颜色是蓝色。"}, {"user": "我最喜欢的颜色是什么？", "check": {"type": "contains", "value": "蓝"}}, {"user": "不对，是红色。", "check": null}, {"user": "我最喜欢的颜色是什么？", "check": {"type": "contains", "value": "红"}}]}
+{"id": "dialogue_003", "suite": "dialogue", "turns": [{"user": "请用 JSON 格式回复：{\"greeting\": \"你好\"}"}, {"user": "请确认你上一条回复包含 greeting 字段。", "check": {"type": "contains", "value": "greeting"}}]}

@@ -1,0 +1,20 @@
+{
+  "profile": "benchmark-full",
+  "sources": {
+    "reasoning": "GSM8K",
+    "accuracy": "MMLU (en seed) + C-Eval (zh seed)",
+    "code": "HumanEval + MBPP",
+    "logic": "curated",
+    "dialogue": "curated",
+    "agent": "curated"
+  },
+  "counts": {
+    "reasoning": 500,
+    "accuracy": 160,
+    "code": 244,
+    "logic": 30,
+    "dialogue": 20,
+    "agent": 20
+  },
+  "total": 974
+}

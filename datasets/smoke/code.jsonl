@@ -1,0 +1,3 @@
+{"id": "code_001", "suite": "code", "prompt": "编写 Python 函数 solve(n)，判断 n 是否为偶数，返回 True 或 False。", "entry": "solve", "tests": [{"input": {"n": 4}, "expected": true}, {"input": {"n": 7}, "expected": false}]}
+{"id": "code_002", "suite": "code", "prompt": "编写 Python 函数 solve(a, b)，返回两数之和。", "entry": "solve", "tests": [{"input": {"a": 3, "b": 5}, "expected": 8}, {"input": {"a": -1, "b": 1}, "expected": 0}]}
+{"id": "code_003", "suite": "code", "prompt": "编写 Python 函数 solve(s)，返回字符串 s 反转后的结果。", "entry": "solve", "tests": [{"input": {"s": "hello"}, "expected": "olleh"}, {"input": {"s": "abc"}, "expected": "cba"}]}

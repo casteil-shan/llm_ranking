@@ -1,0 +1,4 @@
+{"id": "reasoning_001", "suite": "reasoning", "prompt": "小明有 5 个苹果，又买了 3 个，吃掉了 2 个。他现在有几个苹果？", "checks": [{"type": "numeric", "value": 6}]}
+{"id": "reasoning_002", "suite": "reasoning", "prompt": "一个水池有两个进水管。A 管单独注满需 6 小时，B 管单独注满需 3 小时。两管同时开，多少小时注满？", "checks": [{"type": "numeric", "value": 2, "tolerance": 0.1}]}
+{"id": "reasoning_003", "suite": "reasoning", "prompt": "如果所有的猫都是动物，所有的动物都需要食物，那么所有的猫都需要食物吗？请回答「是」或「否」并简述。", "checks": [{"type": "contains", "value": "是"}]}
+{"id": "reasoning_004", "suite": "reasoning", "prompt": "数列 2, 4, 8, 16, ... 的下一个数是多少？", "checks": [{"type": "numeric", "value": 32}]}

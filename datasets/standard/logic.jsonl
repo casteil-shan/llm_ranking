@@ -1,0 +1,8 @@
+{"id": "logic_s001", "suite": "logic", "prompt": "前提1：所有哺乳动物都有脊椎。前提2：鲸鱼是哺乳动物。前提3：有些有脊椎的动物会飞。结论：鲸鱼会飞。该结论是否必然成立？回答「必然」或「不必然」。", "checks": [{"type": "contains", "value": "不必然"}]}
+{"id": "logic_s002", "suite": "logic", "prompt": "甲说：乙和丙都说谎。乙说：甲说谎。丙说：乙说谎。三人中只有一人说真话。谁在说真话？只回答甲、乙或丙。", "checks": [{"type": "contains", "value": "乙"}]}
+{"id": "logic_s003", "suite": "logic", "prompt": "五个房间排成一行，颜色分别为红、蓝、绿、黄、白（顺序未知）。已知：红房在白房左边且不相邻；蓝房在绿房右边；黄房在中间。绿房在第几个位置（从左数 1-5）？", "checks": [{"type": "numeric", "value": 2}]}
+{"id": "logic_s004", "suite": "logic", "prompt": "若「只有年满 18 岁才能投票」为真，且「小李没有投票」为真，能否推出「小李未满 18 岁」？回答「能」或「不能」。", "checks": [{"type": "contains", "value": "不能"}]}
+{"id": "logic_s005", "suite": "logic", "prompt": "骑士永远说真话，无赖永远说谎。你问 A「B 是骑士吗？」A 回答「是的」。然后你问 B「A 和你是同一类人吗？」B 回答「不是」。A 是骑士还是无赖？", "checks": [{"type": "contains", "value": "无赖"}]}
+{"id": "logic_s006", "suite": "logic", "prompt": "三个开关控制三盏灯（灯在隔壁房间，看不见）。你只能进隔壁房间一次。如何确定哪个开关控制哪盏灯？简述关键思路，并回答至少需要几次开关操作来区分。（操作指按下开关，可多次按下同一开关）", "checks": [{"type": "contains", "value": "热"}, {"type": "any_of", "values": ["一次", "1次", "两次", "2次"]}]}
+{"id": "logic_s007", "suite": "logic", "prompt": "命题：「如果下雨，则地湿」的逆否命题是什么？从以下选择：A. 如果地湿，则下雨  B. 如果地不湿，则没下雨  C. 如果没下雨，则地不湿  D. 如果下雨，则地不湿。只回答字母。", "checks": [{"type": "choice", "value": "B"}]}
+{"id": "logic_s008", "suite": "logic", "prompt": "四人比赛，名次无并列。已知：甲不是第一；乙不是最后；丙在丁前面；丁不是第二。第一名是谁？只回答姓名。", "checks": [{"type": "contains", "value": "丙"}]}
