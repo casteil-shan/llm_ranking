@@ -1,0 +1,10 @@
+# Judge 模型配置（建议与待测大模型分机部署）
+judge:
+  enabled: false
+  adapter: openai_compat
+  base_url: "http://localhost:8001/v1"
+  api_key: "EMPTY"
+  model_name: "judge"
+  tier: small
+  temperature: 0.0
+  max_tokens: 256

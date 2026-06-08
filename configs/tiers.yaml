@@ -1,0 +1,24 @@
+tiers:
+  small:
+    max_concurrency: 8
+    request_timeout_sec: 60
+    default_max_tokens: 512
+    retry_count: 1
+
+  medium:
+    max_concurrency: 4
+    request_timeout_sec: 180
+    default_max_tokens: 1024
+    retry_count: 2
+
+  large:
+    max_concurrency: 2
+    request_timeout_sec: 300
+    default_max_tokens: 2048
+    retry_count: 2
+
+  xlarge:
+    max_concurrency: 1
+    request_timeout_sec: 600
+    default_max_tokens: 4096
+    retry_count: 3

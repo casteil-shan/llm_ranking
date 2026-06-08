@@ -1,0 +1,60 @@
+# 待测模型 API 配置
+# base_url 指向 OpenAI 兼容端点（vLLM / TGI / SGLang / Ollama 等）
+models:
+  default:
+    adapter: openai_compat
+    base_url: "http://localhost:8000/v1"
+    api_key: "EMPTY"
+    model_name: "default"
+    tier: large
+    supports_tools: true
+    max_context: 32768
+    extra_headers: {}
+
+  # 示例：30B 级模型
+  # qwen3-32b:
+  #   adapter: openai_compat
+  #   base_url: "http://10.0.1.10:8000/v1"
+  #   api_key: "EMPTY"
+  #   model_name: "qwen3-32b-instruct"
+  #   tier: medium
+  #   supports_tools: true
+  #   max_context: 32768
+
+  # 示例：70B+ 级模型
+  # qwen3-72b:
+  #   adapter: openai_compat
+  #   base_url: "http://10.0.1.11:8000/v1"
+  #   api_key: "EMPTY"
+  #   model_name: "qwen3-72b-instruct"
+  #   tier: large
+  #   supports_tools: true
+  #   max_context: 32768
+
+  # OpenRouter（需联网）
+  # 使用前: export OPENROUTER_API_KEY="sk-or-v1-..."
+  # 模型列表: https://openrouter.ai/models
+  openrouter:
+    adapter: openai_compat
+    base_url: "https://openrouter.ai/api/v1"
+    api_key: "${OPENROUTER_API_KEY}"
+    model_name: "openai/gpt-oss-120b:free"
+    tier: medium
+    supports_tools: true
+    max_context: 32768
+    extra_headers:
+      HTTP-Referer: "https://github.com/agent-ranking"
+      X-Title: "agent-ranking"
+
+  # OpenRouter 其他模型示例（按需取消注释并修改 model_name）
+  # openrouter-deepseek:
+  #   adapter: openai_compat
+  #   base_url: "https://openrouter.ai/api/v1"
+  #   api_key: "${OPENROUTER_API_KEY}"
+  #   model_name: "deepseek/deepseek-chat"
+  #   tier: medium
+  #   supports_tools: true
+  #   max_context: 32768
+  #   extra_headers:
+  #     HTTP-Referer: "https://github.com/agent-ranking"
+  #     X-Title: "agent-ranking"

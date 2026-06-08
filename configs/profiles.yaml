@@ -1,0 +1,54 @@
+profiles:
+  smoke:
+    description: "冒烟测试，约 20 题，15-30 分钟"
+    suites:
+      - reasoning
+      - logic
+      - accuracy
+      - code
+      - dialogue
+      - agent
+
+  fast:
+    description: "快速评测，等同 smoke 题库"
+    suites:
+      - reasoning
+      - logic
+      - accuracy
+      - code
+      - dialogue
+      - agent
+    dataset_profile: smoke
+
+  standard:
+    description: "标准评测，约 48 题，难度高于 smoke"
+    suites:
+      - reasoning
+      - logic
+      - accuracy
+      - code
+      - dialogue
+      - agent
+    dataset_profile: standard
+
+  benchmark-light:
+    description: "通用基准轻量版，约 128 题（GSM8K/MMLU/C-Eval/HumanEval/MBPP + 对话/Agent）"
+    suites:
+      - reasoning
+      - logic
+      - accuracy
+      - code
+      - dialogue
+      - agent
+    dataset_profile: benchmark-light
+
+  benchmark-full:
+    description: "通用基准完整版，约 974 题（含 GSM8K×500、HumanEval 全量等）"
+    suites:
+      - reasoning
+      - logic
+      - accuracy
+      - code
+      - dialogue
+      - agent
+    dataset_profile: benchmark-full

@@ -1,0 +1,9 @@
+# 综合分权重（可按场景调整，总和不必为 1，会自动归一化）
+weights:
+  reasoning: 0.20
+  logic: 0.15
+  accuracy: 0.15
+  code: 0.20
+  dialogue: 0.10
+  agent: 0.10
+  speed: 0.10
