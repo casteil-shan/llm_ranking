@@ -1,0 +1,30 @@
+{"question": "What is the derivative of x^2?", "choices": ["x", "2x", "x^2", "2"], "answer": "B", "subject": "college_mathematics"}
+{"question": "Which data structure uses FIFO ordering?", "choices": ["Stack", "Queue", "Tree", "Graph"], "answer": "B", "subject": "college_computer_science"}
+{"question": "The powerhouse of the cell is the:", "choices": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"], "answer": "B", "subject": "college_biology"}
+{"question": "What is the chemical symbol for gold?", "choices": ["Go", "Gd", "Au", "Ag"], "answer": "C", "subject": "high_school_chemistry"}
+{"question": "In Python, which type is mutable?", "choices": ["tuple", "str", "list", "int"], "answer": "C", "subject": "high_school_computer_science"}
+{"question": "Who wrote 'Pride and Prejudice'?", "choices": ["Charles Dickens", "Jane Austen", "Emily Bronte", "Mark Twain"], "answer": "B", "subject": "miscellaneous"}
+{"question": "What is the speed of light in vacuum (approx)?", "choices": ["3e8 m/s", "3e6 m/s", "3e10 m/s", "3e4 m/s"], "answer": "A", "subject": "conceptual_physics"}
+{"question": "Which organ filters blood in the human body?", "choices": ["Heart", "Liver", "Kidney", "Lung"], "answer": "C", "subject": "anatomy"}
+{"question": "SQL PRIMARY KEY ensures:", "choices": ["Null values", "Duplicate rows", "Unique row identity", "Faster joins only"], "answer": "C", "subject": "computer_security"}
+{"question": "The fallacy of attacking the person rather than the argument is:", "choices": ["Straw man", "Ad hominem", "Red herring", "False dilemma"], "answer": "B", "subject": "logical_fallacies"}
+{"question": "In economics, opportunity cost is:", "choices": ["Monetary price only", "Value of next best alternative", "Total production cost", "Market interest rate"], "answer": "B", "subject": "management"}
+{"question": "Which planet has the most moons in our solar system?", "choices": ["Jupiter", "Saturn", "Uranus", "Neptune"], "answer": "B", "subject": "astronomy"}
+{"question": "DNA double helix was discovered by:", "choices": ["Darwin and Wallace", "Watson and Crick", "Mendel", "Franklin alone"], "answer": "B", "subject": "medical_genetics"}
+{"question": "A valid syllogism: All men are mortal. Socrates is a man. Therefore:", "choices": ["Socrates is mortal", "Socrates is immortal", "Some men are not mortal", "No conclusion"], "answer": "A", "subject": "formal_logic"}
+{"question": "HTTP status 404 means:", "choices": ["Server error", "Not found", "Unauthorized", "Bad request"], "answer": "B", "subject": "computer_security"}
+{"question": "Which vitamin is produced when skin is exposed to sunlight?", "choices": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"], "answer": "C", "subject": "nutrition"}
+{"question": "The Geneva Conventions primarily concern:", "choices": ["Trade tariffs", "Treatment of war victims", "Climate policy", "Nuclear proliferation"], "answer": "B", "subject": "international_law"}
+{"question": "In machine learning, overfitting means:", "choices": ["High bias", "Model fits noise in training data", "Under-trained model", "Perfect generalization"], "answer": "B", "subject": "machine_learning"}
+{"question": "Ohm's law states V equals:", "choices": ["I/R", "IR", "R/I", "I+R"], "answer": "B", "subject": "electrical_engineering"}
+{"question": "Which philosopher wrote 'The Republic'?", "choices": ["Aristotle", "Plato", "Kant", "Hume"], "answer": "B", "subject": "philosophy"}
+{"question": "Big-O of binary search on sorted array:", "choices": ["O(n)", "O(log n)", "O(n^2)", "O(1)"], "answer": "B", "subject": "college_computer_science"}
+{"question": "Antibiotics are effective against:", "choices": ["Viruses", "Bacteria", "All pathogens", "Fungi only"], "answer": "B", "subject": "clinical_knowledge"}
+{"question": "The US Constitution was ratified in:", "choices": ["1776", "1787", "1789", "1803"], "answer": "C", "subject": "miscellaneous"}
+{"question": "In statistics, median is robust to:", "choices": ["All outliers", "Some outliers", "No outliers", "Only small samples"], "answer": "B", "subject": "high_school_statistics"}
+{"question": "Which gas makes up most of Earth's atmosphere?", "choices": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"], "answer": "C", "subject": "high_school_chemistry"}
+{"question": "Recursion requires a:", "choices": ["Loop invariant", "Base case", "Global variable", "Hash table"], "answer": "B", "subject": "college_computer_science"}
+{"question": "The placebo effect is studied in:", "choices": ["Astronomy", "Clinical trials", "Geology", "Linguistics"], "answer": "B", "subject": "professional_medicine"}
+{"question": "Which country hosted the 2016 Summer Olympics?", "choices": ["China", "UK", "Brazil", "Russia"], "answer": "C", "subject": "global_facts"}
+{"question": "In propositional logic, De Morgan: not(A and B) equals:", "choices": ["not A and not B", "not A or not B", "A or B", "not A implies not B"], "answer": "B", "subject": "formal_logic"}
+{"question": "Gradient descent updates parameters opposite to:", "choices": ["Hessian", "Gradient", "Loss value", "Learning rate"], "answer": "B", "subject": "machine_learning"}

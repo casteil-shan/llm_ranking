@@ -1,0 +1,30 @@
+{"question": "TCP 协议位于 OSI 模型的哪一层？", "A": "物理层", "B": "网络层", "C": "传输层", "D": "应用层", "answer": "C", "subject": "computer_network"}
+{"question": "进程与线程的主要区别是？", "A": "线程拥有独立地址空间", "B": "进程拥有独立地址空间", "C": "进程共享栈空间", "D": "线程不能并发", "answer": "B", "subject": "operating_system"}
+{"question": "冯·诺依曼结构的核心是？", "A": "存储程序", "B": "量子比特", "C": "流水线中断", "D": "分布式缓存", "answer": "A", "subject": "computer_architecture"}
+{"question": "Python 中列表推导式 [x*x for x in range(3)] 的结果是？", "A": "[0,1,4]", "B": "[1,4,9]", "C": "[0,1,2]", "D": "[1,2,3]", "answer": "A", "subject": "college_programming"}
+{"question": "牛顿第二定律的表达式是？", "A": "F=ma", "B": "E=mc^2", "C": "PV=nRT", "D": "v=fλ", "answer": "A", "subject": "college_physics"}
+{"question": "氧化还原反应的本质是？", "A": "电子转移", "B": "质子转移", "C": "分子破裂", "D": "相变", "answer": "A", "subject": "college_chemistry"}
+{"question": "∫x dx 等于？", "A": "x", "B": "x^2/2+C", "C": "2x+C", "D": "lnx+C", "answer": "B", "subject": "advanced_mathematics"}
+{"question": "正态分布的标准差增大时，曲线会？", "A": "更高更窄", "B": "更矮更宽", "C": "不变", "D": "消失", "answer": "B", "subject": "probability_and_statistics"}
+{"question": "命题逻辑中，P→Q 等价于？", "A": "¬P∨Q", "B": "P∧Q", "C": "¬Q→¬P", "D": "P∨¬Q", "answer": "A", "subject": "discrete_mathematics"}
+{"question": "欧姆定律中，电阻单位是？", "A": "伏特", "B": "安培", "C": "欧姆", "D": "瓦特", "answer": "C", "subject": "electrical_engineer"}
+{"question": "初中数学：(-3)^2 等于？", "A": "-9", "B": "9", "C": "-6", "D": "6", "answer": "B", "subject": "middle_school_mathematics"}
+{"question": "光合作用主要发生在植物的？", "A": "线粒体", "B": "叶绿体", "C": "细胞核", "D": "液泡", "answer": "B", "subject": "middle_school_biology"}
+{"question": "声音在真空中能否传播？", "A": "能", "B": "不能", "C": "有时能", "D": "取决于频率", "answer": "B", "subject": "middle_school_physics"}
+{"question": "酸的 pH 值通常？", "A": "大于7", "B": "等于7", "C": "小于7", "D": "等于14", "answer": "C", "subject": "middle_school_chemistry"}
+{"question": "《红楼梦》的作者是？", "A": "罗贯中", "B": "施耐庵", "C": "曹雪芹", "D": "吴承恩", "answer": "C", "subject": "chinese_language_and_literature"}
+{"question": "马克思主义哲学的基本问题是？", "A": "思维与存在的关系", "B": "物质与运动", "C": "时间与空间", "D": "质量与能量", "answer": "A", "subject": "marxism"}
+{"question": "社会主义市场经济的核心是？", "A": "计划经济", "B": "市场在资源配置中起决定性作用", "C": "完全自由市场", "D": "禁止竞争", "answer": "B", "subject": "college_economics"}
+{"question": "行政处罚应当遵循的原则不包括？", "A": "法定原则", "B": "公正公开", "C": "一事不再罚", "D": "无限追溯", "answer": "D", "subject": "law"}
+{"question": "教师资格证考试中，教育观强调？", "A": "应试教育", "B": "以人为本", "C": "分数唯一", "D": "惩罚为主", "answer": "B", "subject": "teacher_qualification"}
+{"question": "中国近代史开端一般认为是？", "A": "鸦片战争", "B": "辛亥革命", "C": "五四运动", "D": "新中国成立", "answer": "A", "subject": "modern_chinese_history"}
+{"question": "Docker 的核心技术是？", "A": "虚拟机", "B": "容器化", "C": "裸金属", "D": "Serverless", "answer": "B", "subject": "college_programming"}
+{"question": "SQL 中用于去重的关键字是？", "A": "UNIQUE", "B": "DISTINCT", "C": "GROUP", "D": "INDEX", "answer": "B", "subject": "college_programming"}
+{"question": "二进制数 1010 的十进制是？", "A": "8", "B": "10", "C": "12", "D": "14", "answer": "B", "subject": "college_programming"}
+{"question": "HTTP 是无状态协议，常用什么维持会话？", "A": "Cookie/Session", "B": "UDP", "C": "ARP", "D": "ICMP", "answer": "A", "subject": "computer_network"}
+{"question": "高中物理：自由落体加速度 g 约为？", "A": "1.6 m/s^2", "B": "9.8 m/s^2", "C": "98 m/s^2", "D": "0.98 m/s^2", "answer": "B", "subject": "high_school_physics"}
+{"question": "化学方程式配平依据？", "A": "质量守恒", "B": "体积守恒", "C": "密度守恒", "D": "温度守恒", "answer": "A", "subject": "high_school_chemistry"}
+{"question": "基因位于？", "A": "核糖体", "B": "DNA", "C": "细胞膜", "D": "中心粒", "answer": "B", "subject": "high_school_biology"}
+{"question": "统计中，中位数对什么较稳健？", "A": "极端值", "B": "样本量", "C": "单位", "D": "维度", "answer": "A", "subject": "probability_and_statistics"}
+{"question": "法律上，民事行为能力完全的一般年龄是？", "A": "8周岁", "B": "16周岁", "C": "18周岁", "D": "14周岁", "answer": "C", "subject": "law"}
+{"question": "公务员职业道德的核心是？", "A": "个人利益", "B": "为人民服务", "C": "利润最大化", "D": "回避监督", "answer": "B", "subject": "civil_servant"}
